@@ -45,7 +45,8 @@ This repository provides a solution for downloading files from Google Drive usin
 1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
 2. Enable the Google Drive API for your project.
 3. Create a service account and download the credentials JSON file.
-4. Place the credentials file (e.g., `cred.json`) in the `config/` directory.
+4. Place the credentials file (e.g., `cred.json` and `invalid_cred.json`) in the `config/` directory.
+5. Place the test data in file `test_data/test_data.json`
 
 ### 2. Install Required Python Packages
 
