@@ -14,7 +14,6 @@ with open(os.path.join('test_data', 'test_data.json'), 'r') as f:
 
 logger = logging.getLogger()
 
-
 @pytest.mark.parametrize(
     "file_id, comment",
     [(item['file_id'], item['comment']) for item in test_data['VALID_FILE_IDS']]
@@ -29,7 +28,6 @@ def test_download_file_shared_by_another_user(cred_file):
     logger.info(f"Download a file shared by another user")
     result = run_program([test_data['SHARED_FILE_ID'], test_data['VALID_DESTINATION'], '--credentials', cred_file])
     validate_results(test_data['SHARED_FILE_ID'], test_data['VALID_DESTINATION'], result)
-
 
 @pytest.mark.parametrize(
     "file_id, comment",
@@ -51,7 +49,6 @@ def test_download_spreadsheet_file_types_valid_file_id(file_id, comment, cred_fi
     validate_results(file_id, test_data['VALID_DESTINATION'], result)
 
 
-@pytest.mark.ppt
 @pytest.mark.parametrize(
     "file_id, comment",
     [(item['file_id'], item['comment']) for item in test_data['PPT_FILE_TYPES']]
@@ -102,7 +99,6 @@ def test_download_archive_file_types_valid_file_id(file_id, comment, cred_file):
     validate_results(file_id, test_data['VALID_DESTINATION'], result)
 
 
-@pytest.mark.skip(reason="not implemented- Add test data")
 @pytest.mark.parametrize(
     "file_id, comment",
     [(item['file_id'], item['comment']) for item in test_data['SCRIPTS_FILE_TYPES']]
@@ -113,7 +109,6 @@ def test_download_scripts_file_types_valid_file_id(file_id, comment):
     validate_results(file_id, test_data['VALID_DESTINATION'], result)
 
 
-@pytest.mark.skip(reason="not implemented - Add test data")
 @pytest.mark.parametrize(
     "file_id, comment",
     [(item['file_id'], item['comment']) for item in test_data['APPLICATION_FILE_TYPES']]
@@ -125,7 +120,8 @@ def test_download_application_file_types_valid_file_id(file_id, comment):
 
 
 def test_download_folder_id_invalid(cred_file):
-    logger.info(f"Download a folder with folder id: ", test_data['FOLDER_ID'])
+    folder_id = test_data['FOLDER_ID']
+    logger.info(f"Download a folder with folder id: {folder_id}")
     result = run_program([test_data['FOLDER_ID'], test_data['VALID_DESTINATION'], '--credentials', cred_file])
     assert result.returncode != 0
     assert "Unsupported Google Docs Editors file type: application/vnd.google-apps.folder" in result.stdout
