@@ -1,0 +1,106 @@
+{
+    "VALID_FILE_ID": "1VJpJ9v7RnoHZv8lMMUx-XjMxMZndUZZC",
+    "SHARED_FILE_ID": "1vuBT8YPkbmcBULZ7hyfjXH6w4pe1F5c1",
+    "INSUFFICIENT_PERMISSIONS_FILE_ID": "1850McW6EiVHSSabk8R634AVtlZNOTdjG",
+    "VALID_FILE_IDS": [
+        {"file_id": "1VJpJ9v7RnoHZv8lMMUx-XjMxMZndUZZC", "comment": "View only"},
+        {"file_id": "10fTQd-Uw_UFdl6hfiIrwHzZ2muS3Y5jI", "comment": "Commenter permission"},
+        {"file_id": "1ajQ4f_qObkoFhw6iP9j-47VokgqbDA2K", "comment": "Edit permission"},
+        {"file_id": "1CMd9Ox7x7N6bnwYiPXUwPMXP30ki5r-t", "comment": "Folder permission set"}
+
+    ],
+    "DOC_FILE_TYPES": [
+        {"file_id": "1tr43pYCWwEyPEBumy2l1JXtXzUdfwWt4mwezH-Q4tzo", "comment": "Google doc : .docx"},
+        {"file_id": "1ajQ4f_qObkoFhw6iP9j-47VokgqbDA2K", "comment": "Google doc : .pdf"},
+        {"file_id": "1qJMZ2WMm34wOsjLFwDCB6sUMziSLm2cP", "comment": "Google doc : .rtf"},
+        {"file_id": "1vi_jMuJyXPoZrvVeTqOgQGXo2ugYyge4", "comment": "Google doc : .odt"},
+        {"file_id": "1RdSnrbXV0pPLwl2c8KLmwVFCQU5Lbf3K", "comment": "Google doc : .txt"},
+        {"file_id": "1MTwPRo__5jhYgL0gX8C_Kr0sJx8F5scU", "comment": "Google doc : .html"},
+        {"file_id": "1Ghb-OuEl7aoPsIlZSjO9Mn0z_Ye7N4eR", "comment": "Google doc : .epub"}
+    ],
+
+    "SPREADSHEET_FILE_TYPES": [
+        {"file_id": "1wNtKK-U7VGZseDMXohqu50bu0OshgSRb", "comment": "SPREADSHEET : .xlsx"},
+        {"file_id": "1ymFHuXB27YZgMSg8Wj1v9-au6uybhEV0", "comment": "SPREADSHEET: .ods"},
+        {"file_id": "1v9Xqoq3EmWD8iFJztrQV8elZfqvq74F_", "comment": "SPREADSHEET : .csv"},
+        {"file_id": "1CC3YkqWmjMVfOwSphSRhupa3Kfpds-Nc", "comment": "SPREADSHEET : .tsv"}
+    ],
+
+    "PPT_FILE_TYPES": [
+        {"file_id": "1VupHHhAh1JmR_9WA8wYhqGOC_JRQ3_cA", "comment": "PPT: .pptx"},
+        {"file_id": "1S9wi9_kJTqLWGFUpTsW1uwR6I2zdm3nC", "comment": "PPT: .ppt"},
+        {"file_id": "1M7M56rm9d7fs9fQrsQgugjby4zWL1vnr", "comment": "PPT: .odp"}
+    ],
+
+    "IMAGE_FILE_TYPES": [
+        {"file_id": "1NTEf5U9_MP8V7Dz5iwqas4LXXejanfO0", "comment": "IMAGE: .jpeg"},
+        {"file_id": "1SZa6_u-ypVO8z1s-FOI5ERGyvOHmSO4S", "comment": "IMAGE: .png"},
+        {"file_id": "11Lot9EogF6tiSDmHKCheYWlDBeGIpS6R", "comment": "IMAGE: .gif"},
+        {"file_id": "1pPKPntn6IrmuhiC-f_qC-eL5Kpx1kSQW", "comment": "IMAGE: .svg"},
+        {"file_id": "1F8qN1CnF1MMU93O_e9q6oTlZHAvFWPCk", "comment": "IMAGE: .bmp"},
+        {"file_id": "1FaZJQ_bFv-YeGCF8jsDzUyiVSqp9R66V", "comment": "IMAGE: .tiff"}
+    ],
+
+    "AUDIO_FILE_TYPES": [
+        {"file_id": "1cGk6yymanD1oZ3wt6bK6XQlJPJn-UtiV", "comment": "AUDIO: .mp3"},
+        {"file_id": "1dp4VmIcn-w_P0ra4vSpLt0nBTfH505b4", "comment": "AUDIO: .wav"},
+        {"file_id": "1QHIOvtx4DKe2Pb0Xf0ojIDeLcI30bqUM", "comment": "AUDIO: .AAC"},
+        {"file_id": "15Bk-MforyMwmWA87O1HWjNQtJBTukvLj", "comment": "AUDIO: .ogg"}
+    ],
+
+    "VIDEO_FILE_TYPES": [
+        {"file_id": "16DYtsZQRAX-oxEo0534NLt-J1Xmph77d", "comment": "VIDEO: .mp4"},
+        {"file_id": "19q8aAjQATFVX9-b2Y_TgJ1lG5vKI5bRa", "comment": "VIDEO: .mov"},
+        {"file_id": "1mKm0cjMna49fbOiaZEMi9TS_YpHUA37q", "comment": "VIDEO: .mpeg"},
+        {"file_id": "1tAumatS66x5z_ZK957gAvk20f2Myh_Bl", "comment": "VIDEO: .wmv"}
+    ],
+
+    "ARCHIVE_FILE_TYPES": [
+        {"file_id": "14JgM8Q0vQg-udfBHRXkTNDxjo4A3hLDn", "comment": "ARCHIVE: .zip"},
+        {"file_id": "1WedtnKpLPBh47jKUtg1IEFQGhWChx3_3", "comment": "ARCHIVE: .rar"},
+        {"file_id": "1zN2imRMHpzWwb8lH-iIW2bf3NQCRb-Hg", "comment": "ARCHIVE: .tar"},
+        {"file_id": "1fh9JZzsN7cd-67F9Ja-Sp4tWfV7mFGvX", "comment": "ARCHIVE: .gz"}
+    ],
+
+    "SCRIPTS_FILE_TYPES": [
+        {"file_id": "", "comment": "SCRIPTS: .py"},
+        {"file_id": "", "comment": "SCRIPTS: .js"},
+        {"file_id": "", "comment": "SCRIPTS: .htm"},
+        {"file_id": "", "comment": "SCRIPTS: .css"},
+        {"file_id": "", "comment": "SCRIPTS: .json"},
+        {"file_id": "", "comment": "SCRIPTS: .java"},
+        {"file_id": "", "comment": "SCRIPTS: .php"},
+        {"file_id": "", "comment": "SCRIPTS: .cpp"},
+        {"file_id": "", "comment": "SCRIPTS: .xml"}
+
+    ],
+    "APPLICATION_FILE_TYPES": [
+        {"file_id": "", "comment": "APPLICATION: .apk"},
+        {"file_id": "", "comment": "APPLICATION: .exe"},
+        {"file_id": "", "comment": "APPLICATION: .dmg"},
+        {"file_id": "", "comment": "APPLICATION: .iso"}
+    ],
+
+    "INVALID_FILE_IDS": [
+        {"file_id": "1VJpJ9v7RnoHZv8l", "comment": "File ID too short"},
+        {"file_id":  "1VJpJ9v7RnoHZv8lMMUx-XjMxMZndUZZCadd", "comment":  "File ID too long"},
+        {"file_id": "1VJpJ9v7RnoHZv8lMMUx-XjMxMZndUzzc", "comment": "Characters changed in existing File ID"},
+        {"file_id":  "1VJpJ9v7RnoHZv8lMMU x-XjMxMZndUZZC", "comment":  "Space in between file id"},
+        {"file_id": " ", "comment": "Empty file id"},
+        {"file_id": "123456789123456789123456789123456", "comment": "Numbers only file id"},
+        {"file_id": "abcdefghiJKLMNOPQRSTUVwxyZabcdEFG", "comment": "Alphabets only file id"},
+        {"file_id": "1vjPj9v7rNOhzV8LmmuX-xJmXmzNDuzzc", "comment":  "Case sensitive file id"},
+        {"file_id": "invalidID", "comment":  "Reserved word -> invalidID"},
+        {"file_id": "notAFileId", "comment":  "Reserved words -> notAFileID"},
+        {"file_id": "1ajQ4f&qObkoFhw6iP9j*47VokgqbD@2K", "comment": "Replacing _ and - with other invalid chars"}
+    ],
+
+    "FOLDER_ID":"1IXMJObSMm2G-MLjcoKXjJ_WQqWXD39FO",
+    "INVALID_FILE_ID": "invalid_file_id_here",
+    "MISSING_CREDENTIALS_FILE": "missing_cred.json",
+    "INVALID_CREDENTIALS_FILE": "invalid_cred.json",
+    "INSUFFICIENT_PERMISSIONS_CREDENTIALS_FILE": "readonly_cred.json",
+    "LARGE_FILE_ID": "1YkQrKMz32ehk_vL0qKPnLJ-bnFX6TJyE",
+    "VALID_DESTINATION": "test_output.txt",
+    "INVALID_DESTINATION": "/invalid_path/test_output.txt"
+}
